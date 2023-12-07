@@ -117,7 +117,7 @@ class _AddTodoPageState extends State<AddTodoPage> {
       titleCntrl.text = '';
       descriptionCntrl.text = '';
       // ignore: use_build_context_synchronously
-      showSuccessMessage(context, message: 'Creation Success');
+      showSuccessMessage(context, message: 'Creation Successfully Added');
 
       // ignore: use_build_context_synchronously
       Navigator.pushNamed(context, 'todolist/');
